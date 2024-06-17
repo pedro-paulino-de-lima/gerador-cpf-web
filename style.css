@@ -1,0 +1,49 @@
+*{font-family: Arial, Helvetica, sans-serif;transition: all 0.5s ease;}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: turquoise;
+}
+
+header
+{
+    padding: 1px;
+    background-color: gray;
+    color: lightgray;
+}
+
+header h1
+{
+    margin: 5px
+}
+
+.cpf
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 17%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+main button
+{
+    background-color: blue;
+    color: white;
+    margin-left: 45%;
+    margin-top: 50px;
+    padding: 55px;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+main button:hover
+{
+    border-radius: 50px;
+}
